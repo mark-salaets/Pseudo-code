@@ -1,0 +1,36 @@
+\\ Auxiliary module guess
+ENTER
+
+userNum = 0
+systemNum = round(random(1,10))
+
+
+
+    FOR i = 10 TO 0 DO
+        WRITE "typ a number"
+        READ userNum
+        IF usernum = systemNum THEN
+            WRITE "correct"
+
+        ELSE IF userNum > systemNum THEN
+            WRITE "to high!"
+        ELSE
+            WRITE "to low!"
+        ENDIF
+    ENDFOR
+
+    WRITE "TRY AGAIN!"
+
+
+RETURN
+
+
+\\ Main module
+START
+
+
+    guess()
+
+
+
+END         

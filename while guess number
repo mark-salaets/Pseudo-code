@@ -1,0 +1,24 @@
+\\ Main module
+START
+
+systemNum = 15
+userNum = 0
+
+
+
+WHILE userNum != systemNum DO
+
+WRITE "typ een nummer"
+READ userNum
+
+    IF userNum < systemNum THEN
+         WRITE "te laag!"
+    ELSE IF userNum > systemNum THEN
+         WRITE "te hoog!"
+    ENDIF
+
+ENDWHILE
+
+WRITE "correct, het antwoord is ", systemNum
+
+END

@@ -1,0 +1,13 @@
+\\ Auxiliary module zin
+ENTER FIRST_NAME, SKILL, STARTUP
+
+    a = FIRST_NAME + " is van de startup " + STARTUP + " en kent " + SKILL[1] + ", " + SKILL[2] + ", " + SKILL[3]
+
+RETURN a
+
+\\ Main module
+START
+
+   WRITE zin("mark", ["java", "html", "css"], "hopper")
+
+END            

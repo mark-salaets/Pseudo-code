@@ -1,0 +1,13 @@
+\\ Main module
+START
+
+juniors = ["naam_1", "naam_2", "naam_3", "naam_4", "naam_5"]
+Skills = ["html", "css", "javascript", "php", "Java"]
+
+FOR i = 1 TO 5 DO
+    WRITE juniors[i], " is een junior van de startup Hopper en hij kent: ", skills[i]
+ENDFOR
+
+
+
+END 

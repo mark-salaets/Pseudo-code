@@ -1,0 +1,15 @@
+\\ Auxiliary module groter
+ENTER a, b
+    IF a < b THEN
+        answer = 1
+    ELSE IF a > b THEN
+        answer = 0
+    ENDIF
+RETURN answer
+
+\\ Main module
+START
+
+    WRITE groter(10, 15)
+
+END    

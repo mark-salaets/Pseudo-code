@@ -1,0 +1,22 @@
+\\ Main module
+START
+
+WRITE "wat is de basisprijs?"
+READ price
+
+WRITE "wat is uw leeftijd?"
+READ age
+
+message = "de prijs is: "
+
+IF age < 2 THEN
+    WRITE message, price / price - 1
+ELSE IF age < 10 THEN
+    WRITE message, price / 2
+ELSE IF age < 27 OR age > 70 THEN
+    WRITE message, price - (price * 10 / 100)
+ELSE
+    WRITE message, price
+ENDIF
+
+END

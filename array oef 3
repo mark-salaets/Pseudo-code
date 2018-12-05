@@ -1,0 +1,15 @@
+\\ Main module
+START
+
+numbers = [[18,55],[29,13],[-2,15],[66,44]]
+maxNumber = 0
+
+FOR i = 1 TO 4 DO
+    IF numbers[i][1] + numbers[i][2] > maxNumber THEN
+        maxNumber = numbers[i][1] + numbers[i][2]
+    ENDIF
+ENDFOR
+
+WRITE maxNumber
+
+END

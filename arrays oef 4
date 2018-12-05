@@ -1,0 +1,16 @@
+\\ Main module
+START
+
+juniors = [["David", "Justine", "Valentijn", "Axel", "Redouane"], ["Julie", "Stéphane", "Mostapha", "Claudiu", "Zoon"]]
+
+FOR i = 1 TO 2 DO
+    FOR j = 1 TO 5 DO
+        IF i = 1 THEN
+             WRITE juniors[i][j], " is een junior van Turings"
+        ELSE IF i = 2 THEN
+            WRITE juniors[i][j], " is een junior van Lovelaces"
+        ENDIF
+    ENDFOR
+ENDFOR
+
+END     

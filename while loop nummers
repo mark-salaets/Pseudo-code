@@ -1,0 +1,12 @@
+\\ Main module
+START
+
+WRITE "typ een nummer"
+READ num
+
+WHILE num > 0 DO
+    num = num - 1
+    WRITE num
+ENDWHILE
+
+END

@@ -1,0 +1,14 @@
+
+\\ Auxiliary module hello
+ENTER FIRST_NAME
+
+RETURN "welkom " + FIRST_NAME
+
+
+\\ Main module
+START
+
+
+    write hello("mark")
+
+END
